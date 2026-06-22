@@ -1,0 +1,8 @@
+<!doctype html>
+<html>
+  <body>
+    <!-- CWE-79: variable rendered with the |safe filter disables escaping -->
+    <h1>Welcome, {{ username | safe }}</h1>
+    <div>Bio: {{ bio | safe }}</div>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "vulnapp",
+  "version": "1.0.0",
+  "description": "Intentionally vulnerable Node.js/Express application for SAST benchmarking",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "mongodb": "^6.5.0",
+    "axios": "^1.6.8",
+    "node-serialize": "^0.0.4",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "license": "MIT"
+}
